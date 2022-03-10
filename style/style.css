@@ -1,0 +1,38 @@
+@charset  "UTF-8";
+
+main{
+
+    color: white;
+}
+ul{
+    margin-left: auto;
+}
+#secao1{
+    background: #ffc107;
+}
+#secao2, #secao3, #secao4{
+    background: white;
+    color: black;
+
+}
+.caixa{
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+footer{
+    padding: 30px 0px 10px 0px;
+    background: #ffc107;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer p a{
+    padding: 3px 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+footer p a:hover{
+    border-radius: 3px;
+    text-decoration: underline;
+}

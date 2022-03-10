@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class=" container navbar navbar-expand-sm navbar-light bg-warning">
+            <div class="container"> <!--logo do site-->
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/logo.png" width="142" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu-principal">    <!--Menu do cabeçalho-->
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Benefícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Preço</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light" href="">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> <!--Fim do cabeçalho do site-->
+
+
+    <main> <!--Inicio do corpo do site-->
+
+
+        <section class="container" id="secao1"><!--Inicio da seção 1 do site-->
+            <div class="row"> <!--Container da seção 1 do site-->
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1 class="display-4">Suas contas, descomplicadas!</h1>
+                        <p>
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                        </p>
+                        <form> <!--Formulario do site, area onde sera cadastrado o email do usuario-->
+                            <div class="input-group input-group-lg mt-4 mb-4">
+                                <input type="text" placeholder="Seu e-mail" class="form-controls">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary">Cadastre-se</button>
+                                </div>
+                            </div>
+                        </form><!--fim do formulario-->
+                        <p>Disponivel para <!--Botões abaixo do formulario, onde estão as plataformas disponiveis para dowlod do app-->
+                            <a class="btn btn-outline-light" href="">
+                                <i class="fab fa-android fa-lg"></i>
+                            </a>
+                            <a class="btn btn-outline-light " href="">
+                                <i class="fab fa-apple fa-lg"></i>
+                            </a>
+                        </p><!--Fim da area dos apps-->
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block"> <!--Inicio da area da imagem de capa do site--><!--Utilizando o d-none e d-block nossa imagem so sera exibida em dispositivos md ou maiores-->
+
+                    <img src="imagens/capa-mulher.png" alt="capa">
+
+                </div><!--Fim da area de imagem de capa do site-->
+            </div>
+        </section><!--Fim da seção 1 do site-->
+        <section id="secao2" class="caixa"> <!--Inicio da seção 2 do site-->
+            <div class="container"><!--Container da seção2-->
+                <div class="row">
+                    <div class="col-md-6 d-flex"> <!--Texto da seção 2-->
+                        <div class="align-self-center">
+                            <h2>Saiba para onde vai o seu dinheiro</h2>
+                            <p>Com o finans, você categoriza todos  os seus lançamentos.
+                                Com graficos simples, você sabe de onde vemvem e para onde vai o seu dinheiro
+                            </p>
+                            <a class="btn btn-primary" href="">Veja mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6"> <!--Imagem da seçaõ 2-->
+                        <img src="imagens/saiba.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section> <!--Fim da seçaõ dois do site-->
+
+        <section class="caixa" id="secao3"> <!--Inicio da seção 3 do site-->
+            <div class="container"> <!--Container da seção 3-->
+                <div class="row">
+                    <div class="col-md-6"> <!--Imagem da seção 3-->
+                        <img src="imagens/juros.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-6 d-flex"><!--Texto da seção 3-->
+                        <div class="align-self-center">
+                            <h2>Pare de pagar juros e economize</h2>
+                            <p>Manter as contas em dia é sempre um problema? O Finans avisa você: receba alerta de contas a pagar e a receber
+                            </p>
+                            <a class="btn btn-primary" href="">Veja mais...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fim da seção 3 do site-->
+        <section id="secao4"><!--Inicio da seção 4-->
+            <div class="container"> <!--Container da seção 4-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagens/facil.png" class="img-fluid" alt="">
+                        <h3>Fácil de usar</h3>
+                        <p>O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/economize.png" class="img-fluid" alt="">
+                        <h3>Economize seu tempo</h3>
+                        <p>Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveita seu tempo com o que realmete importa para você</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/suporte.png" class="img-fluid" alt="">
+                        <h3>Suporte amigo</h3>
+                        <p>Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui para resolver seus problemas e deixar sua vida bem mais fácil!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8"><!--Menu rodapé-->
+                        <p class="">
+                            <a href="index.html">Home</a>
+                            <a href="">Recursos</a>
+                            <a href="">Benefícios</a>
+                            <a href="">Preços</a>
+                        </p>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end"><!--redes sociais rodapé-->
+                        <a class="text-secondary " href="">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a class="text-secondary " href="">
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </a>
+                        <a class="text-secondary " href="">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a class="text-secondary " href="">
+                            <i class="fab fa-youtube fa-lg"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </main>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
