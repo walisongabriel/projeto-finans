@@ -1,15 +1,16 @@
 @charset  "UTF-8";
 
 main{
-
+    background: #ffc107;
     color: white;
+}
+header{
+    background: #ffc107;
 }
 ul{
     margin-left: auto;
 }
-#secao1{
-    background: #ffc107;
-}
+
 #secao2, #secao3, #secao4{
     background: white;
     color: black;
